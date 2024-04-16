@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "CCWildWorldsLower";
+  src: url(CCWildWorldsLower/CCWildWordsLower-Regular.ttf);
+}
+@font-face {
+  font-family: "CCWildWorldsLower";
+  src: url(CCWildWorldsLower/CCWildWordsLower-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CCWildWorldsLower";
+  src: url(CCWildWorldsLower/CCWildWordsLower-Italic.ttf);
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+
+header {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url("Asset/DSC_2645tyess.JPG");
+  background-size: cover; /* Menyesuaikan ukuran gambar agar sesuai dengan header */
+  background-position: bottom; /* Posisi gambar di tengah header */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  font-size: 20px;
+  padding: 60px;
+  background-color: transparent;
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "CCWildWorldsLower";
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 8px;
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px cornsilk;
+}
+
+nav {
+  background-color: rgba(182, 203, 217, 0.3);
+  border: #bfcdff solid;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  float: none;
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "CCWildWorldsLower";
+  padding: 30px;
+}
+
+nav li a:hover {
+  background-color: #bfcdff;
+  color: blue;
+}
+
+/* main */
+
+footer {
+  background: transparent;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border: solid #bfcdff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  border: solid #bfcdff;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 4; /* Adjust the ratio between main article and aside */
+  padding: 0; /* Adjust as needed */
+}
+
+.baru {
+  font-size: 0; /* Reset the font size to avoid extra spacing */
+  text-align: center; /* Center the article boxes */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-list {
+  display: inline-block; /* Use inline-block to place the article boxes side by side */
+  width: 31%; /* Set the width of each article box */
+  font-size: 1rem; /* Reset the font size to the default value */
+  vertical-align: top; /* Align the top of the article boxes */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  margin: 0 1%; /* Add some margin between the article boxes */
+  padding: 20px; /* Add some padding inside the article boxes */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+/* teks */
+
+.ApaItu {
+  padding: 10px;
+  background-color: #ff5454;
+  color: rgb(0, 0, 0);
+}
+
+.judulzun {
+  padding: 10px;
+  background-color: rgb(101, 228, 101);
+}
+
+.about {
+  padding: 10px;
+  background-color: #bfcdff;
+}
+
+/* gambar */
+
+.text-and-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-and-image img {
+  max-width: 100%; /*Membuat gambar responsive  */
+  margin-left: 20px;
+}
+
+/* list */
+
+.list-games {
+  display: block;
+}
+
+.list-list {
+  background-color: rgba(178, 104, 0, 0.3);
+}
+
+.list-list .game {
+  font-weight: 1000;
+  font-size: x-large;
+  padding: 8px;
+  background-color: rgba(90, 53, 0, 0.9);
+  border-radius: 5px;
+  color: white;
+}
+
+.list-games ul {
+  gap: 1rem;
+  color: black;
+}
+
+.list-games li {
+  padding: 2px;
+  /* border: 1px solid; */
+  margin-bottom: 1px;
+  text-decoration: underline;
+  color: blue;
+  list-style: square;
+}
+
+.list-games p {
+  text-decoration: underline;
+  font: bold;
+  font-weight: 700;
+  background-color: rgba(99, 57, 0, 0.65);
+  padding: 7px;
+  border-radius: 5px;
+  
+}
+
+.list-list:nth-child(2) {
+  background-color: rgba(0, 210, 0, 0.3);
+}
+
+.list-list:nth-child(2) .music {
+  font-weight: 1000;
+  font-size: x-large;
+  padding: 8px;
+  background-color: rgba(0, 90, 12, 0.9);
+  border-radius: 5px;
+  color: white;
+}
+
+.list-music ul {
+  gap: 1rem;
+  color: black;
+}
+
+.list-music li {
+  padding: 2px;
+  /* border: 1px solid; */
+  margin-bottom: 1px;
+  text-decoration: underline;
+  color: blue;
+  list-style: square;
+}
+
+.list-music p {
+  text-decoration: underline;
+  font: bold;
+  font-weight: 700;
+  background-color: rgba(0, 99, 30, 0.65);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.list-list:nth-child(3) {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.list-list:nth-child(3) .buku {
+  font-weight: 1000;
+  font-size: x-large;
+  padding: 8px;
+  background-color: rgba(90, 0, 0, 0.9);
+  border-radius: 5px;
+  color: white;
+}
+
+.koleksi-patchouli ul {
+  gap: 1rem;
+  color: black;
+}
+
+.koleksi-patchouli li {
+  padding: 2px;
+  /* border: 1px solid; */
+  margin-bottom: 1px;
+  text-decoration: underline;
+  color: blue;
+  list-style: square;
+}
+
+.koleksi-patchouli p {
+  text-decoration: underline;
+  font: bold;
+  font-weight: 700;
+  background-color: rgba(128, 1, 1, 0.637);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.list-container {
+  align-items: stretch;
+
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+/* konten samping  */
+
+aside {
+  flex: 1; /* Adjust the ratio between main article */
+  border: solid #bfcdff;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 2px;
+  padding: 20px; /* Adjust as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%; /* Make each article box fill the screen on mobile devices */
+    display: block; /* Stack the article boxes vertically on mobile devices */
+  }
+
+  .list-list {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .text-and-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-and-image img {
+    margin-left: 20px; /* Jarak antara teks dan gambar pada tampilan PC */
+    margin: 3px;
+    order: -1;
+  }
+
+  section p {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  .list-list li {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .list-container {
+    align-items: normal !important;
+    display: block !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .list-games p {
+    margin: 0 5px !important;
+  }
+}

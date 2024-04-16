@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'CCWildWordsLower';
+    src: url('CCWildWordsLower-Italic.eot');
+    src: local('CCWildWordsLower Italic'), local('CCWildWordsLower-Italic'),
+        url('CCWildWordsLower-Italic.eot?#iefix') format('embedded-opentype'),
+        url('CCWildWordsLower-Italic.woff2') format('woff2'),
+        url('CCWildWordsLower-Italic.woff') format('woff'),
+        url('CCWildWordsLower-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CCWildWordsLower';
+    src: url('CCWildWordsLower-Bold.eot');
+    src: local('CCWildWordsLower Bold'), local('CCWildWordsLower-Bold'),
+        url('CCWildWordsLower-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CCWildWordsLower-Bold.woff2') format('woff2'),
+        url('CCWildWordsLower-Bold.woff') format('woff'),
+        url('CCWildWordsLower-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CCWildWordsLower';
+    src: url('CCWildWordsLower-BoldItalic.eot');
+    src: local('CCWildWordsLower Bold Italic'), local('CCWildWordsLower-BoldItalic'),
+        url('CCWildWordsLower-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('CCWildWordsLower-BoldItalic.woff2') format('woff2'),
+        url('CCWildWordsLower-BoldItalic.woff') format('woff'),
+        url('CCWildWordsLower-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CCWildWordsLower';
+    src: url('CCWildWordsLower-Regular.eot');
+    src: local('CCWildWordsLower Regular'), local('CCWildWordsLower-Regular'),
+        url('CCWildWordsLower-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CCWildWordsLower-Regular.woff2') format('woff2'),
+        url('CCWildWordsLower-Regular.woff') format('woff'),
+        url('CCWildWordsLower-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
